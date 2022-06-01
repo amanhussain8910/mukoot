@@ -13,6 +13,7 @@
 }
 .header-top p span {
     color: var(--red);
+    font-weight: 800;
 }
 .header-top ul {
     display: flex;
