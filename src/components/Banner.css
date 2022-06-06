@@ -20,7 +20,7 @@
     font-family: var(--font3);
 }
 .banner-text h1 span {
-    color: red;
+    color: var(--red);
     text-shadow: 0 0 50px #ff0000;
     animation: colorswitch 2s linear infinite;
 }

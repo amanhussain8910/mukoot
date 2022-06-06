@@ -1,6 +1,6 @@
 .header-top {
-    background-color: #222;
-    padding: .5em 1em;
+    background-color: var(--red);
+    padding: .7em 1em;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -8,12 +8,10 @@
 }
 .header-top p {
     font-size: 14px;
-    font-weight: 500;
+    font-weight: 600;
     margin: 0;
-}
-.header-top p span {
-    color: var(--red);
-    font-weight: 800;
+    color: #fff;
+    opacity: 1;
 }
 .header-top ul {
     display: flex;
@@ -22,8 +20,8 @@
 .header-top ul li a {
     display: block;
     color: #fff;
-    opacity: .7;
     font-size: 14px;
+    font-weight: 600;
 }
 .header-top ul li:last-child a {
     margin-left: 1em;
@@ -31,7 +29,7 @@
     border-left: 1px solid #adadad;
 }
 .header-top ul li a:hover {
-    opacity: 1;
+    color: #000;
 }
 .header-top ul li a i {
     margin-right: 5px;
@@ -41,7 +39,7 @@
     justify-content: space-between;
     align-items: center;
     background-color: #222;
-    padding: .5em 1em;
+    padding: .8em 1em;
     border-top: 1px solid #1a1a1a;
 }
 .logo {
@@ -67,6 +65,9 @@
 .navibar ul li a.active {
     color: var(--red);
     font-size: 22px;
+}
+.navibar ul li a:hover {
+    color: var(--red);
 }
 .navibar ul li a span {
     display: none;

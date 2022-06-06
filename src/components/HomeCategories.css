@@ -1,0 +1,50 @@
+.home-category-wrapper {
+    padding: 2em 0;
+}
+.category-container {
+    position: relative;
+    padding: 2em 0;
+}
+.category-container:before {
+    content: 'Half face';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-transform: uppercase;
+    font-size: 20rem;
+    font-family: var(--font3);
+    z-index: -1;
+    white-space: nowrap;
+    color: #fff;
+    opacity: .08;
+}
+.category-img {
+    text-align: center;
+    position: relative;
+}
+.category-img:before {
+    content: '';
+    position: absolute;
+    width: 700px;
+    height: 700px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: radial-gradient(#8b8b8b 0%, transparent 72%);
+    z-index: -1;
+}
+.category-text h2 {
+    font-family: var(--font3);
+    font-size: 5.5rem;
+    color: #fff;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin: 0;
+}
+.category-text h2 span {
+    color: var(--red);
+}
+.category-text p {
+    margin: 1.5em 0 2em 0;
+}
