@@ -10,6 +10,7 @@
     --font2: 'Bebas Neue', cursive;
     --font3: 'Oswald', sans-serif;
     --red: #ff0000;
+    --whiteimg: invert(100%) sepia(100%) saturate(19%) hue-rotate(295deg) brightness(105%) contrast(107%);
 }
 body {
     font-family: var(--font1);
@@ -36,7 +37,7 @@ button {
     outline: none !important;
 }
 .btnred {
-    min-width: 150px;
+    min-width: 180px;
     height: 55px;
     display: inline-flex;
     justify-content: center;
@@ -61,7 +62,7 @@ button {
     height: 100%;
     background-color: #fff;
     bottom: 48px;
-    right: -98px;
+    right: -112px;
     transform: rotate(90deg);
     z-index: -1;
     transition: .1s;
@@ -97,4 +98,5 @@ button {
     font-size: 20px;
     letter-spacing: 22px;
     margin-left: 22px;
+    color: var(--red);
 }

@@ -1,9 +1,10 @@
-import React from 'react'
+import React from 'react';
+import AboutBanner from '../components/AboutBanner';
 
 const About = () => {
-  return (
-    <div>About</div>
-  )
+    return (
+        <AboutBanner />
+    )
 }
 
 export default About
