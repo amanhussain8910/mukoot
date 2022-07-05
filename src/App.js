@@ -4,10 +4,9 @@ import "./App.css";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Products from "./pages/Products";
-import Blogs from "./pages/Blogs";
 import Contact from "./pages/Contact";
-import Catalogue from "./pages/About";
 import Header from "./components/Header";
+import Footer from "./components/Footer";
 
 function App() {
 	return (
@@ -17,10 +16,9 @@ function App() {
 				<Route exact path="/" element={<Home />} />
 				<Route path="/about" element={<About />} />
 				<Route path="/products" element={<Products />} />
-				<Route path="/blogs" element={<Blogs />} />
 				<Route path="/contact" element={<Contact />} />
-				<Route path="/catalogue" element={<Catalogue />} />
 			</Routes>
+			<Footer/>
 		</Router>
 	);
 }
