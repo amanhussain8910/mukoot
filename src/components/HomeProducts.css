@@ -16,6 +16,9 @@
     color: #fff;
     opacity: .08;
 }
+.product-container:nth-child(even):before {
+    content: 'Full face';
+}
 .product-img {
     text-align: center;
     position: relative;

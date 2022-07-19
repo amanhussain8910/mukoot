@@ -9,10 +9,10 @@ const Footer = () => {
                 <a href="/" className="logo"><img src={process.env.PUBLIC_URL + '/images/logo.svg'} alt="" /></a>
                 <div className="footer-nav">
                     <ul>
-                      <li><NavLink to='/'><span>Home</span> Home</NavLink></li>
-                      <li><NavLink to='/about'><span>About</span> About</NavLink></li>
-                      <li><NavLink to='/products'><span>Products</span>Products</NavLink></li>
-                      <li><NavLink to='/contact'><span>Contact</span>Contact</NavLink></li>
+                      <li><NavLink to='/'>Home</NavLink></li>
+                      <li><NavLink to='/about'>About</NavLink></li>
+                      <li><NavLink to='/products'>Products</NavLink></li>
+                      <li><NavLink to='/contact'>Contact</NavLink></li>
                     </ul>
                 </div>
                 <div className="social-media">

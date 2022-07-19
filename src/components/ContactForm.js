@@ -32,8 +32,8 @@ const ContactForm = () => {
           <div className="col-12">
             <div className="contact-details">
               <ul>
-                <li><a href="#"><img src={process.env.PUBLIC_URL + '/images/icons/call.png'} alt="" /> 0123456789</a></li>
-                <li><a href="#"><img src={process.env.PUBLIC_URL + '/images/icons/email.png'} alt="" /> support@mukoot.com</a></li>
+                <li><a href="tel:918800298396"><img src={process.env.PUBLIC_URL + '/images/icons/call.png'} alt="" /> +91 8800298396</a></li>
+                <li><a href="mailto:support@mukoot.com"><img src={process.env.PUBLIC_URL + '/images/icons/email.png'} alt="" /> support@mukoot.com</a></li>
                 <li><a href="#"><img src={process.env.PUBLIC_URL + '/images/icons/location.png'} alt="" /> A-73, Ground Floor, Malviya Nagar, Delhi-110017</a></li>
               </ul>
             </div>

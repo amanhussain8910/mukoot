@@ -14,7 +14,7 @@ const HomeCategories = () => {
                             <img src={process.env.PUBLIC_URL + '/images/helmets/1.png'} alt="Mukoot" />
                         </div>
                         <div className="col-md-6 product-text">
-                            <h2>Half Face <span>Dura</span></h2>
+                            <h2>Full Face <span>Nickel</span></h2>
                             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam illum placeat iure ut! Iusto ipsum aut explicabo at cupiditate esse provident? Quod modi dolorem maxime sunt, exercitationem temporibus pariatur vero.</p>
                             <a className="btnred" href="/about">Explore Now</a>
                         </div>
@@ -42,7 +42,7 @@ const HomeCategories = () => {
                             <img src={process.env.PUBLIC_URL + '/images/helmets/2.png'} alt="Mukoot" />
                         </div>
                         <div className="col-md-6 product-text">
-                            <h2>Half Face <span>Dura</span></h2>
+                            <h2>Full Face <span>Mirage</span></h2>
                             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam illum placeat iure ut! Iusto ipsum aut explicabo at cupiditate esse provident? Quod modi dolorem maxime sunt, exercitationem temporibus pariatur vero.</p>
                             <a className="btnred" href="/about">Explore Now</a>
                         </div>
@@ -53,7 +53,7 @@ const HomeCategories = () => {
                 <div className="container">
                     <div className="row align-items-center">
                         <div className="col-md-6 product-text text-end">
-                            <h2>Half Face <span>Dura</span></h2>
+                            <h2>Half Face <span>Airman</span></h2>
                             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam illum placeat iure ut! Iusto ipsum aut explicabo at cupiditate esse provident? Quod modi dolorem maxime sunt, exercitationem temporibus pariatur vero.</p>
                             <a className="btnred" href="/about">Explore Now</a>
                         </div>
@@ -70,7 +70,7 @@ const HomeCategories = () => {
                             <img src={process.env.PUBLIC_URL + '/images/helmets/3.png'} alt="Mukoot" />
                         </div>
                         <div className="col-md-6 product-text">
-                            <h2>Half Face <span>Dura</span></h2>
+                            <h2>Full Face <span>Hefty</span></h2>
                             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam illum placeat iure ut! Iusto ipsum aut explicabo at cupiditate esse provident? Quod modi dolorem maxime sunt, exercitationem temporibus pariatur vero.</p>
                             <a className="btnred" href="/about">Explore Now</a>
                         </div>
@@ -81,7 +81,7 @@ const HomeCategories = () => {
                 <div className="container">
                     <div className="row align-items-center">
                         <div className="col-md-6 product-text text-end">
-                            <h2>Half Face <span>Dura</span></h2>
+                            <h2>Half Face <span>Falcon</span></h2>
                             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam illum placeat iure ut! Iusto ipsum aut explicabo at cupiditate esse provident? Quod modi dolorem maxime sunt, exercitationem temporibus pariatur vero.</p>
                             <a className="btnred" href="/about">Explore Now</a>
                         </div>

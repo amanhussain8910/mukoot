@@ -8,8 +8,8 @@ const Header = () => {
         <div className="header-top">
             <p>Welcome to <span>Mukoot</span> Helmets</p>
             <ul>
-                <li><a href="mailto:email@mukoot.com"><i className="fa fa-envelope-o"></i> email@mukoot.com</a></li>
-                <li><a href="tel:0123456789"><i className="fa fa-phone"></i> 0123456789</a></li>
+                <li><a href="mailto:support@mukoot.com"><i className="fa fa-envelope-o"></i> support@mukoot.com</a></li>
+                <li><a href="tel:8800298396"><i className="fa fa-phone"></i> +91 8800298396</a></li>
             </ul>
         </div>
         <div className="header-bottom">
